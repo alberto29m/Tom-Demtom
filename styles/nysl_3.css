@@ -219,15 +219,7 @@ input{
     flex-flow:row nowrap;
     display:flex;
 }
-.name input{
-    flex-grow:1;
-    display:flex;
-}
-.firstname{
-    flex-grow:1;
-    display:flex;
-}
-.lastname{
+.lastname, .adress input, .citycode input, .city, .zipcode, .birthdate, .birthdate input, .gender, .guardian input, .contactform input, .phoneform, .emailform, .titlefirstsecond h4, .firstclosestschool, .secondclosestschool, .jerseysize, .bottom input, .guardiansignature, .shortssize, .titlesize h3, .date, .firstname{
     flex-grow:1;
     display:flex;
 }
@@ -236,42 +228,14 @@ input{
     justify-content:flex-start;
     display:flex;
 }
-.adress input{
-    flex-grow:1;
-    display: flex;
-}
 .citycode{
     padding-bottom: 20px;
     flex-flow:row nowrap;
     display:flex;
 }
-.citycode input{
-    flex-grow:1;
-    display:flex;
-}
-.city{
-    flex-grow:1;
-    display:flex;
-}
-.zipcode{
-    flex-grow:1;
-    display:flex;
-}
 .birthgender{
     padding-bottom: 20px;
     flex-flow:row nowrap;
-    display:flex;
-}
-.birthdate{
-    flex-grow:1;
-    display:flex;
-}
-.birthdate input{
-    flex-grow:1;
-    display:flex;
-}
-.gender{
-    flex-grow:1;
     display:flex;
 }
 .grade{
@@ -285,25 +249,9 @@ input{
     justify-content:flex-start;
     display:flex;
 }
-.guardian input{
-    flex-grow:1;
-    display:flex;
-}
 .contactform{
     padding-bottom: 20px;
     flex-flow:row nowrap;
-    display:flex;
-}
-.contactform input{
-    flex-grow:1;
-    display:flex;
-}
-.phoneform{
-    flex-grow:1;
-    display:flex;
-}
-.emailform{
-    flex-grow:1;
     display:flex;
 }
 .closeschool{
@@ -313,18 +261,6 @@ input{
 }
 .titlefirstsecond{
     flex-flow:row nowrap;
-    display:flex;
-}
-.titlefirstsecond h4{
-    flex-grow: 1;
-    display:flex;
-}
-.firstclosestschool{
-    flex-grow:1;
-    display:flex;
-}
-.secondclosestschool{
-    flex-grow:1;
     display:flex;
 }
 .a{
@@ -372,20 +308,8 @@ input{
     flex-flow:row wrap;
     display:flex;
 }
-.jerseysize{
-    flex-grow:1;
-    display:flex;
-}
-.shortssize{
-    flex-grow:1;
-    display:flex;
-}
 .titlesize{
     flex-flow:row nowrap;
-    display:flex;
-}
-.titlesize h3{
-    flex-grow: 1;
     display:flex;
 }
 .size{
@@ -406,18 +330,6 @@ footer p{
     padding-top:20px;
     padding-bottom: 20px;
     flex-flow:row nowrap;
-    display:flex;
-}
-.bottom input{
-    flex-grow:1;
-    display:flex;
-}
-.guardiansignature{
-    flex-grow:1;
-    display:flex;
-}
-.date{
-    flex-grow:1;
     display:flex;
 }
 button{
